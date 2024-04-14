@@ -5,18 +5,12 @@ import Footer from '../components/Footer';
 
 
 const Login = () => {
-
-    return (
-        <div className="flex flex-col min-h-screen">
-            <Header />
-            <div className="flex-grow">
-                <main className="flex flex-col justify-center items-center">
-
-                </main>
-            </div>
-            <Footer />
-        </div>
-    );
+  return (
+    <div>
+        <h1>Login</h1>
+    </div>
+  );
 }
 
 export default Login;
+
