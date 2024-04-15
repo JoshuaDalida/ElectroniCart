@@ -9,8 +9,8 @@ async function main() {
  // Additional products
     await prisma.Product.create({
       data: {
-        name: `Airpods`,
-        description: `With plenty of talk and listen time, voice-activated Siri access and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.`,
+        name: `11`,
+        description: `Example 11.`,
         price:179.00,
         imageURL: 'https://via.placeholder.com/225',
       },
