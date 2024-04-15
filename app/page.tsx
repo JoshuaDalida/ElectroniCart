@@ -25,19 +25,19 @@ const Home = async () => {
   const data = await getData();
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
+
       <div className="flex-grow">
         <main className="flex flex-col justify-center items-center">
           <div className="flex flex-row flex-wrap justify-center items-center bg-white">
-            {data.map((product, id) => (
-                <div className="m-4">
-                  <Product product={product} />
-                </div>
+            {data.map((product) => (
+              <div className="m-4" key={product.id}>
+                <Product product={product} />
+              </div>
             ))}
           </div>
         </main>
       </div>
-      <Footer />
+
     </div>
   );
 }

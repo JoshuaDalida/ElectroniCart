@@ -1,14 +1,10 @@
 
-
-function ProductDetail({ product }) {
- return (
-    <div>
-      <h1>{product.name}</h1>
-      <p>{product.description}</p>
-      <p>Price: ${product.price}</p>
-      {product.imageURL && <img src={product.imageURL} alt={product.name} />}
-    </div>
- );
+function ProductDetail() {
+    return (
+        <div>
+            <h1>{params.id}</h1>
+        </div>
+    );
 }
 
 export default ProductDetail;
