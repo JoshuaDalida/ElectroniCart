@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore logs
+*.log
+
+# Ignore editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
