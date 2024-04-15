@@ -84,7 +84,6 @@ export default function Profile() {
                 </form>
             </div>
         </div>
-
     );
 }
 
