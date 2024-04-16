@@ -7,7 +7,7 @@ import Header from './Header'
 const Client = () => {
   return (
     <SessionProvider>
-        <Header />
+      <Header />
     </SessionProvider>
   )
 }

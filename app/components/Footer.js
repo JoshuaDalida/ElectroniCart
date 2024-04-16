@@ -51,7 +51,7 @@ const footer = () => {
                     <p className="text-sm text-gray-600">Help Center</p>
                 </div>
                 <div className="text-black flex flex-col items-center m-5">
-                    
+
                     <p className="text-xl font-bold text-gray-800">Infromation</p>
                     <p className="text-sm text-gray-600">123 Main Street</p>
                     <p className="text-sm text-gray-600">ElectroniCart@gmail.com</p>

@@ -1,7 +1,7 @@
 import { signOut } from 'next-auth/react';
 
 interface SignOutButtonProps {
-  onClick: () => void; 
+  onClick: () => void;
 }
 
 const SignOutButton: React.FC<SignOutButtonProps> = ({ onClick }) => {

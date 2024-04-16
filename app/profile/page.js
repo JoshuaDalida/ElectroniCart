@@ -9,8 +9,8 @@ const Profile = () => {
       <SessionProvider>
         <ProfileWrapper />
       </SessionProvider>
-      </>
-    )
+    </>
+  )
 }
 
 export default Profile

@@ -16,4 +16,4 @@ export const getUserSession = async (): Promise<User> => {
   return authUserSession.user
 }
 
-export default {getUserSession, session}
+export default { getUserSession, session }

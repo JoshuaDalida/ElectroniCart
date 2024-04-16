@@ -22,20 +22,20 @@ export const authOption: NextAuthOptions = {
         throw new Error('No profile')
       }
 
-    await prisma.user.upsert({
+      await prisma.user.upsert({
         where: {
-            email: profile.email,
+          email: profile.email,
         },
         create: {
-            email: profile.email,
-            name: profile.name,
+          email: profile.email,
+          name: profile.name,
         },
         update: {
-            name: {
-                set: profile.name,
-            },
+          name: {
+            set: profile.name,
+          },
         },
-    })
+      })
       return true
     },
     async jwt({ token, user, account, profile }) {
